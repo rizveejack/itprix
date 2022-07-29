@@ -1596,13 +1596,14 @@ Footer Style
 */
 
 footer {
-  background-image: url(../images/footer-bg.png);
+  /* background-image: url(../images/footer-bg.png); */
+  background-color: #000;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 130px;
-  padding-top: 300px;
-  padding-bottom: 60px;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 footer .section-heading {
@@ -1699,7 +1700,6 @@ footer #search button:hover {
 
 footer .copyright-text p {
   text-align: center;
-  margin-top: 50px;
   margin-bottom: 0px;
   color: #fff;
 }
