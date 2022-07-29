@@ -25,7 +25,7 @@
       margin:0,
       responsive:{ 
           1200:{
-              items:5
+              items:6
           },
           992:{
               items:3
@@ -42,31 +42,7 @@
 		closeButton: ".modal_close"
 });
 
-$(function() {
-		// Calling Login Form
-		$("#login_form").click(function() {
-				$(".social_login").hide();
-				$(".user_login").show();
-				return false;
-		});
 
-		// Calling Register Form
-		$("#register_form").click(function() {
-				$(".social_login").hide();
-				$(".user_register").show();
-				$(".header_title").text('Register');
-				return false;
-		});
-
-		// Going back to Social Forms
-		$(".back_btn").click(function() {
-				$(".user_login").hide();
-				$(".user_register").hide();
-				$(".social_login").show();
-				$(".header_title").text('Login');
-				return false;
-		});
-});
 
   // Acc
   $(document).on("click", ".naccs .menu div", function() {
