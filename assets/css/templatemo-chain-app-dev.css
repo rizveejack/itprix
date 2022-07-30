@@ -968,8 +968,8 @@ Services Style
 
 .services  .section-heading p {
   margin-top: 10px;
-  margin-left: 18%;
-  margin-right: 18%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .services .container-fluid {
@@ -1714,6 +1714,9 @@ footer p a:hover {
   opacity: 0.75;
   color: #fff;
 }
+.gradient-button{
+  display: inline-block;
+}
 .accordion-button{
   font-weight: bold;
 }
@@ -1729,6 +1732,13 @@ footer p a:hover {
   font-weight: normal;
 }
 
+.technology img{
+  width: 400px !important;
+}
+
+.technology{
+  display: block;
+}
 
 /*
 ---------------------------------------------
