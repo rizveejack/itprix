@@ -253,6 +253,7 @@ body {
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
   transition: all .5s;
+  cursor: pointer;
 }
 
 .gradient-button a:hover {
@@ -390,23 +391,23 @@ header
   padding-right: 20px;
 }
 
-.header-area .main-nav .nav li:nth-child(7) {
+.header-area .main-nav .nav li:nth-child(8) {
   padding-right: 0px;
   padding-left: 40px;
 }
 
 .header-area .main-nav .nav li:last-child a ,
 .background-header .main-nav .nav li:last-child a,
-.header-area .main-nav .nav li:nth-child(7) a ,
-.background-header .main-nav .nav li:nth-child(7) a {
+.header-area .main-nav .nav li:nth-child(8) a ,
+.background-header .main-nav .nav li:nth-child(8) a {
   padding: 0px 20px !important;
   font-weight: 400;
 }
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover,
-.header-area .main-nav .nav li:nth-child(7) a:hover ,
-.background-header .main-nav .nav li:nth-child(7) a:hover {
+.header-area .main-nav .nav li:nth-child(8) a:hover ,
+.background-header .main-nav .nav li:nth-child(8) a:hover {
   color: #fff !important;
 }
 
@@ -657,8 +658,8 @@ header
   .background-header .main-nav .nav li:last-child {
     color: #069;
   }
-  .header-area .main-nav .nav li:nth-child(7),
-  .background-header .main-nav .nav li:nth-child(7) {
+  .header-area .main-nav .nav li:nth-child(8),
+  .background-header .main-nav .nav li:nth-child(8) {
     padding-right: 0px;
   }
   .background-header .nav li a.active:after {
@@ -1200,7 +1201,7 @@ The Clients
 */
 
 .the-clients {
-  margin-top: 130px;
+  margin-top: 0px;
 }
 
 .the-clients  .section-heading {
@@ -1415,7 +1416,7 @@ The Clients
 }
 
 .pricing-item-regular ul li {
-  color: #dc3545;
+  color: #000;
   font-size: 15px;
   margin-bottom: 15px;
 }
@@ -1712,6 +1713,20 @@ footer p a {
 footer p a:hover {
   opacity: 0.75;
   color: #fff;
+}
+.accordion-button{
+  font-weight: bold;
+}
+
+.accordion-button:focus {
+  border-color: #fff;
+  outline: 0;
+  box-shadow:none;
+}
+
+.accordion-body{
+  color: #b2b0af;
+  font-weight: normal;
 }
 
 
@@ -2240,4 +2255,5 @@ responsive
   form#contact {
     padding: 30px;
   }
+  
 }
